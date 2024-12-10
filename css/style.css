@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'vazir';
+    src: url('../fonts/Vazir.woff') format('woff');
+}
+
+body {
+    direction: rtl;
+    font-family: "vazir" !important;
+    background-color: #F5F5F5;
+}
+.logo {
+    height: 36px;
+    display: block;
+    text-align: right;
+    background: url("../img/logo.svg") no-repeat 100%;
+    background-size: auto 100%;
+}
+.register {
+    font-size: 14px;
+}
+/* start Menu */
+.navbar_custom {
+    background: #616161;
+    padding: 0 9px 0 9px ;
+}
+
+.navbar_custom .nav-link {
+    font-size: 13px;
+}
+
+#custom-main-dropdown-menu {
+    width: 99%;
+    border-top: 0 ;
+}
+
+.top_link {
+    font-size: 14px;
+}
+
+ .top_link i {
+    vertical-align: -6px;
+    font-size: 19px;
+}
+
+ .top_link:hover {
+    display: inline;
+    padding: 5px;
+    transition: padding-right .1s;
+}
+
+ .custom-list-group a {
+    font-size: 12px;
+    color: #6a6a6a;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+
+
